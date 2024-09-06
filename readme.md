@@ -1,4 +1,4 @@
-# YASEC - Yet Another Simple Execution Queue
+# YASEQ - Yet Another Simple Execution Queue
 
 ## Why use this module?
 

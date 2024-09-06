@@ -1,5 +1,5 @@
 {
-	"name": "yasec",
+	"name": "yaseq",
 	"version": "1.0.0",
 	"description": "Yet another simple task queue",
 	"main": "./dist/index.js",
