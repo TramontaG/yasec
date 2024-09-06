@@ -18,7 +18,7 @@ This module solves this issue by creating a queue of tasks that are assured to b
 ## How to use
 
 ```typescript
-import { createTaskQueue } from 'yasec';
+import { createTaskQueue } from 'yaseq';
 
 const taskQueue = createTaskQueue();
 
