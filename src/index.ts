@@ -35,5 +35,3 @@ export const createTaskQueue = () => {
 		awaitExecution,
 	};
 };
-
-module.exports = createTaskQueue;

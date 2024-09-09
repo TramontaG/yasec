@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
   	"name": "yaseq",
-  	"version": "1.0.1",
+  	"version": "1.0.2",
   	"description": "Yet another simple task queue",
   	"main": "./dist/index.js",
   	"license": "MIT",
