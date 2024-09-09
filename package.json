@@ -1,6 +1,6 @@
 {
 	"name": "yaseq",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Yet another simple task queue",
 	"main": "./dist/index.js",
 	"license": "MIT",
@@ -9,7 +9,7 @@
 		"start": "tsc && node dist/index.js",
 		"test": "jest",
 		"docs": "typedoc ./src/index.ts",
-		"prepublish": "yarn tsc"
+		"prepublish": "rm -rf ./dist && tsc"
 	},
 	"devDependencies": {
 		"@types/jest": "^29.2.5",

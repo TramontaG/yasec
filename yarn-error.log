@@ -2,7 +2,7 @@ Arguments:
   /home/guigalleta/.nvm/versions/node/v20.15.0/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.bun/bin:/home/guigalleta/.nvm/versions/node/v20.15.0/bin:/home/guigalleta/.vscode-server/cli/servers/Stable-fee1edb8d6d72a0ddff41e5f71a671c23ed924b9/server/bin/remote-cli:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin/home/guigalleta/.yarn/bin/bash:/snap/bin:/home/guigalleta/android-sdk/platform-tools
+  /home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.bun/bin:/home/guigalleta/.nvm/versions/node/v20.15.0/bin:/home/guigalleta/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/remote-cli:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/home/guigalleta/.jenv/shims:/home/guigalleta/.jenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin/home/guigalleta/.yarn/bin/bash:/snap/bin:/home/guigalleta/android-sdk/platform-tools
 
 Yarn version: 
   1.22.19
@@ -29,7 +29,7 @@ Trace:
 npm manifest: 
   {
   	"name": "yaseq",
-  	"version": "1.0.0",
+  	"version": "1.0.1",
   	"description": "Yet another simple task queue",
   	"main": "./dist/index.js",
   	"license": "MIT",
@@ -38,7 +38,7 @@ npm manifest:
   		"start": "tsc && node dist/index.js",
   		"test": "jest",
   		"docs": "typedoc ./src/index.ts",
-  		"prepublish": "yarn tsc"
+  		"prepublish": "rm -rf ./dist && tsc"
   	},
   	"devDependencies": {
   		"@types/jest": "^29.2.5",
